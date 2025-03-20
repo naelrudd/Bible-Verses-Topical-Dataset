@@ -1,4 +1,4 @@
-# 📖 Bible Verses Topical Dataset
+# 📖 Bible Verses Topical Dataset (ID)
 
 This repository contains a structured dataset of Bible verses categorized by topic and context. It is useful for spiritual study, thematic analysis, and NLP applications.
 
