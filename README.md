@@ -24,11 +24,14 @@ To use the dataset in Google Colab without manual uploads, fetch it directly fro
 import pandas as pd
 
 url = "https://raw.githubusercontent.com/[your-username]/[your-repo]/main/bible_verses_dataset.csv"
+
+df = pd.read_csv(url)
+df.head()
+
 ```
 ## 📜 License
 This dataset is licensed under the [GNU General Public License v3.0 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html).  
 
 You are free to use, modify, and distribute this dataset, provided that any modifications or derivative works are also distributed under the same license.
 
-df = pd.read_csv(url)
-df.head()
+For full details, see the [LICENSE](LICENSE) file.
